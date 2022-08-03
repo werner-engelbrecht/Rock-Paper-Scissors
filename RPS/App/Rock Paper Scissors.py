@@ -247,7 +247,7 @@ def Scissors():
     text.destroy()
     scissors_button.configure(state=DISABLED)
     global new_text
-    new_text = Button(window, command=None, text="You have picked Rock", font=(
+    new_text = Button(window, command=None, text="You have picked Scissors", font=(
         "Munich", 14), fg='white', bg='#00ABF0', bd=0, activebackground='#00ABF0', activeforeground='white')
     new_text.place(x=170, y=180)
 
